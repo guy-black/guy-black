@@ -1,0 +1,40 @@
+#welcome-section {
+  background-color: grey;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#projects {
+  background-color: #001a76;
+  height: 100vh;
+  width: 100vw;
+}
+#contact {
+  background-color: #803300;
+  height: 100vh;
+  width: 100vw;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5%;
+  background: tan;
+  display: flex;
+  justify-content: space-around;
+}
+.navlink {
+  text-decoration: none;
+  font-size: 150%;
+  color: black;
+  display: block;
+}
+@media (max-width: 600px) {
+  #navbar {
+    background: blue;
+  }
+}
